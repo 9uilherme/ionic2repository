@@ -31,4 +31,7 @@ export class OverlayPage {
     });
     alert.present();
   }
+  clickOnMenu(p:string): void {
+    console.log('Clicou no menu' + p + '!');
+  }
 }

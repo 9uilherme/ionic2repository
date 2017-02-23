@@ -7,6 +7,8 @@ import { OverlayPage} from '../pages/overlay/overlay'
 
 @Component({
   templateUrl: 'app.html'
+  // template : <ion-nav #myContent [root]="rootPage"></ion-nav>
+
 })
 export class MyApp {
   pages: Array<{title: string, component: any}> = [];
